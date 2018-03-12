@@ -1,0 +1,223 @@
+Executing (default): SELECT `id`, `brand`, `model`, `price`, `screenSize`, `resolution`, `angleOfView`, `pixelSize`, `reactionTime`, `website`, `shop`, `createdAt`, `updatedAt` FROM `AllInOnes` AS `AllInOne` ORDER BY `AllInOne`.`price` ASC;
+brand: ASUS | model: MG279Q,  27" | price: 1
+brand: ASUS | model: MX27AQ, 27" | price: 1
+brand: LG | model: 31MU97Z-B, 31" | price: 1
+brand: LG | model: 4K UHD IPS LED Monitor 27UD88-W, 27" | price: 1
+brand: ASUS | model: MG278Q, 27" | price: 1
+brand: LENOVO | model: Y27G Curved Gaming Monitor, 27", 65BEGAC1IS | price: 1
+brand: ASUS | model: MX27UC, 27", 90LM02B3-B01670 | price: 1
+brand: ACER | model: Z271TBMIPHZX CURVED, 27" | price: 1
+brand: ACER | model: XB252QBMIPRZX, 24.5" | price: 1
+brand: ACER | model: XB272BMIPRZX 27" | price: 1
+brand: LG | model: 9-W | price: 1
+brand: LG | model: 50G-B /QHD/144HZ/VA | price: 1
+brand: LG | model: 38UC99-W WQHD CURVED, 37.5", 38 | price: 2
+brand: HAGOR | model:  PC75 WALL BRACK, 4267 | price: 26.28
+brand: ACER | model: 18.5" V196HQLAB, UM.XV6EE.A03 | price: 126
+brand: ACER | model: EB192Qb | price: 129
+brand: ACER | model: K202HQLAb | price: 139
+brand: PHILIPS | model: 193V5LSB2/10 | price: 145
+brand: ACER | model: KA210HQbd | price: 149
+brand: LG | model: 19M38A-B, 18.5" | price: 152.4
+brand: BENQ | model: GL955A | price: 155
+brand: PHILIPS | model: 203V5LSB26/10 | price: 159
+brand: ASUS | model: VS197DE | price: 159
+brand: AOC | model: E2070SWN | price: 159
+brand: LG | model: 20MP48A-P | price: 169
+brand: ACER | model: EB222Qb | price: 169
+brand: ACER | model: 21.5", V226HQLBBD, LED | price: 169.2
+brand: ACER | model: KA210HQBD, 20.7", UM.LX2EE.001 | price: 169.2
+brand: ACER | model: EB222QB, 21.5", UM.WE2EE.001 | price: 178.8
+brand: ACER | model: KA220HQbid | price: 179
+brand: ACER | model: K222HQLbd | price: 179
+brand: LENOVO | model: LI2215S, 21.5", 65CCAAC6UK | price: 180
+brand: LG | model: 22M38A-B 21.5" | price: 186
+brand: LG | model: 20M37A-B | price: 189
+brand: PHILIPS | model: 223V5LSB2/10 | price: 195
+brand: ASUS | model: VS228NE | price: 195
+brand: LG | model: 22M38A-B | price: 199
+brand: ASUS | model: VS228D/DE | price: 199
+brand: ACER | model: S230HLBBD | price: 199
+brand: LENOVO | model: LI2215s 65CCAAC6EU | price: 199
+brand: ACER | model: V226HQLBD, 21.5", UM.WV6EE.005 | price: 199.2
+brand: ACER | model: KA220HQBID, 21.5", UM.WX0EE.001 | price: 200.4
+brand: ACER | model: V226HQLBID 21.5" | price: 200.4
+brand: ASUS | model: VS207D | price: 205
+brand: SAMSUNG | model: LS22F350FHUXEN | price: 219
+brand: PHILIPS | model: 223V5LSB/00 | price: 219
+brand: ACER | model: G236HLBBID | price: 219
+brand: PHILIPS | model: 223V5LHSB/00 | price: 219
+brand: ACER | model: SA220Qbid | price: 219
+brand: PHILIPS | model: 226V6QSB6/00 | price: 219
+brand: BENQ | model: GW2270HM | price: 219
+brand: ACER | model: SA220QBID, 21.5" | price: 219.6
+brand: LG | model: 22MP48D-P, 21.5" | price: 223.2
+brand: ACER | model: G227HQLAbid | price: 229
+brand: PHILIPS | model: 227E7QDSB/00 | price: 229
+brand: ASUS | model: VZ229HE | price: 229
+brand: ASUS | model: 21.5", VS228DE | price: 235.2
+brand: ACER | model: R221QBMID IPS FHD, 21.5", UM.WR1EE.001 | price: 238.8
+brand: ACER | model: R221Qbmid | price: 239
+brand: ACER | model: K242HLbd | price: 239
+brand: DELL | model: SE2216H | price: 239
+brand: PHILIPS | model: 227E6LDAD/00 | price: 239
+brand: HP | model: 22kd T3U87AA | price: 239
+brand: LG | model: 24M38A-B, 23.5" | price: 241.2
+brand: ASUS | model: VZ229HE, 21.5" | price: 247.2
+brand: ASUS | model: VS228HR, 21.5" LED  | price: 248.4
+brand: ACER | model: KA240HBID | price: 249
+brand: ACER | model: SA230bid | price: 249
+brand: ACER | model: V246HLBID, 24", UM.FV6EE.026 | price: 249.6
+brand: ACER | model: SA230BID, 23" | price: 249.6
+brand: LG | model: 24M38D-B, 23.5" | price: 255.6
+brand: LG | model: 22M47VQ-P, 21.5" | price: 256.8
+brand: LG | model: Full HD IPS LED Monitor, 21.5" | price: 258
+brand: LG | model: 19MB35P-I, 19", 19MB35P-I.AEU | price: 258
+brand: ACER | model: G237HLAbid | price: 259
+brand: LG | model: TV 22MT44DP-PZ, 21.5" | price: 259.2
+brand: LG | model: 19MB35D-I, 19", 19MB35D-I.AEU | price: 259.2
+brand: ACER | model: KA240HBID, 24" | price: 259.2
+brand: LG | model: 24MT49DF-PZ, 24" | price: 260.4
+brand: LG | model: 24M38H-B 23.5" | price: 265.2
+brand: LG | model: 22MP68VQ-P, 21.5" | price: 267.6
+brand: LG | model: 19MB35PM-I, 19", LCD | price: 267.6
+brand: LG | model: 22MP58VQ-P | price: 269
+brand: ACER | model: R231bmid IPS | price: 269
+brand: LG | model: 22MB37PU-B, 21.5" | price: 271.2
+brand: LG | model: 23MP48HQ-P, 23" | price: 274.8
+brand: HP | model: ProDisplay P223 21.5-inch Monitor, X7R61AA  | price: 276
+brand: ACER | model: SA240Ybid | price: 279
+brand: BENQ | model: GW2470HM | price: 279
+brand: DELL | model: SE2417HG | price: 279
+brand: ASUS | model: VS248HR 24" | price: 279.6
+brand: ACER | model: SA240YBID, 23.8" | price: 279.6
+brand: DELL | model: SE2416H | price: 289
+brand: BENQ | model: VZ2470H | price: 289
+brand: DELL | model: S2218H | price: 289
+brand: DELL | model: SE2417HG 5Y | price: 289
+brand: HP | model: ProDisplay P222va 21.5-inch Monitor, K7X30AA | price: 294
+brand: LG | model: 24MP48HQ-P, 23.8" | price: 295.2
+brand: ASUS | model: VZ229H SLIM, 21.5", 7MM | price: 295.2
+brand: ASUS | model: VP247T, 23.6” | price: 297.6
+brand: LG | model: 24M47VQ-P, 24" | price: 298.8
+brand: 23.6 | model: 42QRWI | price: 298.8
+brand: SAMSUNG | model: LC24F390FHUXEN | price: 299
+brand: SAMSUNG | model: LS24F350FHUXEN | price: 299
+brand: ACER | model: R241Ybmid IPS | price: 299
+brand: PHILIPS | model: 247E6LDAD/00 | price: 299
+brand: PHILIPS | model: 237E7QDSB/00 | price: 299
+brand: LG | model: 24MP58VQ-P, 23.8" | price: 302.4
+brand: LG | model: 23MP68VQ-P, 23" | price: 309.6
+brand: LG | model: 24MP59G-P, 23.8" | price: 316.8
+brand: TV | model: MT49S-PZ | price: 319.2
+brand: LG | model: 24MP68VQ-P 23.8" Full HD IPS LED | price: 321.6
+brand: PHILIPS | model: 234E5QHAW/00 | price: 329
+brand: ASUS | model: VX238H | price: 329
+brand: TV | model: LG 28MT48DF-PZ, 27.5" | price: 331.2
+brand: LG | model: 23",  23MB35PM-B /FHD/DVI | price: 333.6
+brand: LG | model: 24MP58VQ-P | price: 339
+brand: ASUS | model: VP247HA | price: 339
+brand: HP | model: 24es T3M78AA | price: 339
+brand: ASUS | model: VX248H | price: 345
+brand: LG | model: 24MB37PM-B, 23.8" | price: 345.6
+brand: DELL | model: P2317H-W | price: 349
+brand: ASUS | model: VX248H, 24" | price: 349.2
+brand: LG | model: 22BK55WY-B, 22", FHD IPS TN Anti-Glare 3H | price: 356.4
+brand: ASUS | model: VX238H, 23", LED | price: 357.6
+brand: DELL | model: S2316H | price: 359
+brand: ASUS | model: VZ249H | price: 359
+brand: LG | model: 27MP38VQ-B Full HD IPS LED Monitor, 27" | price: 361.2
+brand: LG | model: 28MT49VW-WZ, 28 | price: 368.4
+brand: LG | model: 24MB37PY-B, 23.8" | price: 370.8
+brand: ACER | model: R271BMID | price: 379
+brand: ACER | model: R271BMID IPS FHD, 27", UM.HR1EE.001 | price: 379.2
+brand: LG | model: 24BK550Y-B, 23.8" | price: 380.4
+brand: DELL | model: SE2717H 5Y | price: 389
+brand: ACER | model: SA270BID 27" | price: 390
+brand: TV | model: MT49S-PZ | price: 390
+brand: LG | model: Full HD IPS LED Monitor 27MP48HQ-P, 27" | price: 398.4
+brand: PHILIPS | model: 241B6QPYEB/00 | price: 399
+brand: ASUS | model:  27.0", VE278H | price: 409.2
+brand: LG | model: 24MP88HV-S, 23.8" | price: 422.4
+brand: LG | model: 27MP58VQ-P, 27", 27MP58VQ-P.AEU | price: 427.2
+brand: LG | model: 9G-P | price: 427.2
+brand: SAMSUNG | model: LS27F350FHUXEN | price: 429
+brand: ACER | model: ED273WMIDX | price: 429
+brand: ACER | model: ED273WMIDX,  27", UM.HE3EE.005 | price: 429.6
+brand: LG | model: 24BK55WD-B, 24"  | price: 429.6
+brand: LENOVO | model: L24q-10 65CFGAC-3EU | price: 439
+brand: SAMSUNG | model: LC27F390FHUXEN | price: 439
+brand: HP | model: 27es T3M86AA | price: 439
+brand: LG | model: 27MP68VQ-P, 27", 27MP68VQ-P.AEU | price: 441.6
+brand: HP | model: 27er 68.58 cm (27") Monitor, T3M88AA | price: 441.6
+brand: DELL | model: U2414H IPS | price: 449
+brand: DELL | model: S2415H | price: 449
+brand: ACER | model: EB321HQWD, 31.5", UM.JE1EE.005 | price: 450
+brand: LG | model: 24BK750Y-B, 24" | price: 453.6
+brand: ASUS | model: VS278H 27" | price: 453.6
+brand: ASUS | model: VS278H 1MS/FHD/HDMI, 27" | price: 453.6
+brand: PHILIPS | model: 273V5LHAB/00 | price: 459
+brand: PHILIPS | model: 277E6LDAD/00 | price: 459
+brand: PHILIPS | model: 278E8QJAB/00 | price: 459
+brand: PHILIPS | model: 239C4QHWAB/00 | price: 469
+brand: PHILIPS | model: 276E7QDSW/00 | price: 469
+brand: ASUS | model: 27", VX279H | price: 469.2
+brand: LG | model: 17", 17MB15T-B, TOUCH SCREEN | price: 478.8
+brand: SAMSUNG | model: LS32F351FUUXEN | price: 479
+brand: ASUS | model: VP278H 27" | price: 483.6
+brand: LENOVO | model: Y25F-10, 24.5" | price: 489.6
+brand: ASUS | model: MX259H, 25" | price: 495.6
+brand: LG | model: 19MB15T-I Touch Screen, 19" | price: 498
+brand: LENOVO | model: LEGION Y25F-10 | price: 499
+brand: ACER | model: XF240HBMJDPR, 24", UM.FX0EE.001 | price: 499.2
+brand: ACER | model: GN246HLBBID 24", UM.FG6EE.B06 | price: 500.4
+brand: ASUS | model: VX279H-W, 27" | price: 500.4
+brand: LG | model: 27MP58VQ-P | price: 519
+brand: ASUS | model: VZ279HE IPS SLIM 7MM, 27" | price: 528
+brand: DELL | model: UZ2315H-B IPS | price: 529
+brand: ACER | model: XB240HBMJDPR, 24", UM.FB0EE.001 | price: 529.2
+brand: DELL | model: U2412M IPS | price: 539
+brand: DELL | model: P2416D | price: 539
+brand: LG | model: 27MP77HM-P, 27" | price: 542.4
+brand: LG | model: 23" 23ET83V | price: 544.8
+brand: PHILIPS | model: 242G5DJEB/00 | price: 549
+brand: ACER | model: ED273AWIDPX 27" | price: 549.6
+brand: LG | model: 27MP89HM-S, 27" | price: 558
+brand: ASUS | model: VG278HE | price: 559
+brand: SAMSUNG | model: LC32F391FWUXEN | price: 569
+brand: PHILIPS | model: 275C5QHGSW/00 | price: 569
+brand: PHILIPS | model: 328E8QJAB5/00 | price: 569
+brand: ASUS | model: VG248QE | price: 569
+brand: LG | model: 24GM77-B, 23.6" | price: 585.6
+brand: ASUS | model: 27", VG278HE | price: 591.6
+brand: ASUS | model: MX279H, 27", IPS, FHD | price: 598.8
+brand: ACER | model: XF270HBMJDPRZ, 27", UM.HX0EE.002 | price: 598.8
+brand: ACER | model: ED322QWMIDX, 31.5", UM.JE2EE.009 | price: 598.8
+brand: ASUS | model: VA327H CURVED, 31.5" | price: 600
+brand: LENOVO | model: L27q-10 65CEGAC-1EU | price: 619
+brand: ACER | model: XG270HUAOMIDPX / WQHD, 27", UM.HG0EE.A01 | price: 619.2
+brand: LG | model: 24UD58-B, 23.8" | price: 646.8
+brand: ACER | model: XZ271BMIJPPHZX | price: 699
+brand: ACER | model: 27 XZ271BMIJPPHZX CURVED, 27", LCD, UM.HX1EE.019 | price: 699.6
+brand: ACER | model: CB271HUBMIDPRX 27" | price: 699.6
+brand: SAMSUNG | model: LU28E590DS/EN | price: 749
+brand: LG | model: 23",  23ET63V-W, TOUCH 10 | price: 756
+brand: LG | model: 9-B | price: 765.6
+brand: LG | model: 27UD58-B, 27", 27UD58-B.AEU | price: 768
+brand: ASUS | model: VP28UQG 4K, 28" | price: 778.8
+brand: LG | model: 9P-B | price: 822
+brand: PHILIPS | model: 273G3DHSB/00 | price: 849
+brand: ACER | model: XZ321QBMIJPPHZX, 31.5", UM.JX1EE.005 | price: 898.8
+brand: ACER | model: XF270HABMIDPRZ 27" | price: 898.8
+brand: DELL | model: S2817Q | price: 899
+brand: BENQ | model: ZOWIE XL2720 | price: 899
+brand: LG | model: 27UD68-W, 27" | price: 915.6
+brand: LG | model: 50F /240HZ/2MS/HDMI | price: 926.4
+brand: ASUS | model: PB278QR, 27.0" | price: 943.2
+brand: PHILIPS | model: 328P6AUBREB/00 | price: 949
+brand: AOC | model: C3583FQ/BS | price: 999
+brand: LG | model: 27UD68P-B UHD IPS LED Monitor, 27" | price: 999.6
+brand: ASUS | model: PG248Q, 24", 90LM2J0-B01370 | price: 999.6
+brand: ASUS | model: VA32AQ, 31.5", 90LM0300-B01970 | price: 999.6
+brand: ACER | model: CB271HKABMIDPRX, 27" | price: 999.6
+brand: LG | model: 27UD69-W, 27" | price: 999.6

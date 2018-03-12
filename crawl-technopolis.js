@@ -6,11 +6,19 @@ const $init = require('jquery');
 
 const _ = require('lodash');
 
+const db = require('./database/db');
+
 const prt = require('./product-technopolis');
 
 const {
     extractProductDetailsTech,
 } = prt;
+
+// const insertDataToDBTech = require('./database/db');
+
+// const {
+//     addDataToDB,
+// } = insertDataToDBTech;
 
 const url = 'http://www.technopolis.bg/bg//%D0%9A%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D1%80%D0%B8-%D0%B8-%D0%BF%D0%B5%D1%80%D0%B8%D1%84%D0%B5%D1%80%D0%B8%D1%8F/%D0%9C%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8/c/P11010301?pageselect=24&page=0&q=:price-asc&text=&layout=List&sort=price-asc';
 
@@ -51,9 +59,9 @@ const getProductUrls = async () => {
 
     const productsUrls = (await Promise.all(pageUrls
             .map((pageUrl) => JSDOM.fromURL(pageUrl))))
-            .map((dom) => $init(dom.window))
-            .map(($) => [...$(productUrlSelector)]
-                .map((htmlAnchorElement) =>
+        .map((dom) => $init(dom.window))
+        .map(($) => [...$(productUrlSelector)]
+            .map((htmlAnchorElement) =>
                 (linkStart + $(htmlAnchorElement).attr('href'))));
 
     // const productsUrls = (await Promise.all(pageUrls
@@ -65,33 +73,38 @@ const getProductUrls = async () => {
     // return productsUrls;
 
     return _.chain(productsUrls)
-            .flatten()
-            .sortedUniq()
-            .value();
+        .flatten()
+        .sortedUniq()
+        .value();
 };
 
-const run = async () => {
+const runTechnopolis = async () => {
     const productsUrls = await getProductUrls();
     // console.log(productsUrls);
     // console.log(productsUrls.length);
     // const dataToBeInDbTech = [];
     const data = await Promise.all(
         productsUrls
-            .map(async (productUrl) => {
-                return await extractProductDetailsTech(productUrl);
-                // dataToBeInDbTech.push(productInfo);
-            }));
+        .map(async (productUrl) => {
+            return await extractProductDetailsTech(productUrl);
+            // dataToBeInDbTech.push(productInfo);
+        }));
 
     // console.log(dataToBeInDbTech);
     // console.log(productsUrls);
-    console.log(data);
-    console.log(data.length);
+    // console.log(data);
+    // console.log(data.length);
+    await db.getObjFromList(data);
 };
 
-run();
+// runTechnopolis();
 
-// const run2 = async () => {
+module.exports = {
+    runTechnopolis,
+};
+
+// const runTechnopolis2 = async () => {
 //     // const result = await extractProductDetailsTech('http://www.technopolis.bg/bg/Monitors/Monitor-ASUS-VG248QE/p/501170');
 //     // console.log(result);
 // };
-// run2();
+// runTechnopolis2();

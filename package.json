@@ -1,10 +1,18 @@
 {
   "name": "nodejs-db-teamwork",
   "version": "1.0.0",
-  "description": "",
+  "description": "Create a web crawler gathering and aggregating information from atleast two different web sites",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "add-migration": "node ./node_modules/sequelize-auto-migrations/bin/makemigration.js",
+    "migrate": "./node_modules/.bin/sequelize db:migrate",
+    "update": "node app.js",
+    "sort-by-price" : "node ./commands/sort-by-price.js > sort-by-price.txt",
+    "filter-by-screen-size-eq27" : "node ./commands/filter-by-screen-size-eq27.js > filter-by-screen-size-eq27.txt",
+    "filter-by-price-gt500" : "node ./commands/filter-by-price-gt500.js > filter-by-price-gt500.txt",
+    "filter-by-resolution-eq1366x768" : "node ./commands/filter-by-resolution-eq1366x768.js > filter-by-resolution-eq1366x768.txt",
+    "filter-by-pixel-size-lt024" : "node ./commands/filter-by-pixel-size-lt024.js > filter-by-pixel-size-lt024.txt"
   },
   "keywords": [],
   "author": "",
@@ -17,5 +25,14 @@
     "sequelize": "^4.35.1",
     "sequelize-auto-migrations": "^1.0.2",
     "sequelize-cli": "^4.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roruroru/node-db-ind-teamwork.git"
+  },
+  "bugs": {
+    "url": "https://github.com/roruroru/node-db-ind-teamwork/issues"
+  },
+  "homepage": "https://github.com/roruroru/node-db-ind-teamwork#readme"
 }

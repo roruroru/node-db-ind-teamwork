@@ -7,8 +7,8 @@ const $init = require('jquery');
 // const _ = require('lodash');
 
 // const urlTest = 'https://most.bg/monitori/asus-25-mx259h.html';
-const urlTest = 'https://most.bg/monitori/x7r61aa-prodisplay-p223-21-5.html';
-const urlTest2 = 'https://most.bg/monitori/acer-24-5-kg251qf-bmidpx.html';
+// const urlTest = 'https://most.bg/monitori/x7r61aa-prodisplay-p223-21-5.html';
+// const urlTest2 = 'https://most.bg/monitori/acer-24-5-kg251qf-bmidpx.html';
 // const urlTest2 = 'https://most.bg/monitori/acer-r271bmid-ips-fhd.html';
 
 const extractProductDetailsMost = async (url) => {
@@ -16,6 +16,7 @@ const extractProductDetailsMost = async (url) => {
         const dom = await JSDOM.fromURL(url);
         const $ = $init(dom.window);
 
+        const shop = 'most.bg';
         const price = +$('.price-including-tax>.price')
             .text()
             .trim()
@@ -24,11 +25,11 @@ const extractProductDetailsMost = async (url) => {
         const title = $('.product-name>h1').html();
         const brand = title.split(' ')[1];
         const model = title.substring(9 + brand.length);
-        let screenSizeInch = '';
-        let resolution = '';
-        let angleOfView = '';
-        let reactionTime = '';
-        let pixelSize = '';
+        let screenSizeInch = null;
+        let resolution = null;
+        let angleOfView = null;
+        let reactionTime = null;
+        let pixelSize = null;
         $('#product-attribute-specs-table tbody th')
             .each((_, el) => {
                 const $child = $(el);
@@ -62,6 +63,8 @@ const extractProductDetailsMost = async (url) => {
         // selector.forEach((cell) => console.log(cell.text()));
 
         return {
+            shop,
+            url,
             price,
             brand,
             model,
@@ -73,7 +76,7 @@ const extractProductDetailsMost = async (url) => {
         };
     } catch (error) {
         // console.log(error);
-        console.log(url);
+        // console.log(url);
         return null;
     }
 };

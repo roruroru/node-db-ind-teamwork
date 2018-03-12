@@ -6,11 +6,19 @@ const $init = require('jquery');
 
 const _ = require('lodash');
 
+const db = require('./database/db');
+
 const prm = require('./product-most');
 
 const {
     extractProductDetailsMost,
 } = prm;
+
+// const insertDataToDBMost = require('./database/db');
+
+// const {
+//     addDataToDB,
+// } = insertDataToDBMost;
 
 const url = 'https://most.bg/monitori/where/limit/20/p/1.html';
 
@@ -56,7 +64,7 @@ const getProductUrls = async () => {
             .value();
 };
 
-const run = async () => {
+const runMost = async () => {
     const productsUrls = await getProductUrls();
     // console.log(productsUrls);
     // console.log(productsUrls.length);
@@ -68,7 +76,16 @@ const run = async () => {
             }));
 
     // console.log(data.length);
-    console.log(data);
+    // console.log(data);
+    // data.forEach((obj) => {
+    //     db.addDataToDB(obj);
+    // });
+    await db.emptyTableRows();
+    await db.getObjFromList(data);
 };
 
-run();
+// runMost();
+
+module.exports = {
+    runMost,
+};

@@ -1,0 +1,57 @@
+Executing (default): SELECT `id`, `brand`, `model`, `price`, `screenSize`, `resolution`, `angleOfView`, `pixelSize`, `reactionTime`, `website`, `shop`, `createdAt`, `updatedAt` FROM `AllInOnes` AS `AllInOne` WHERE `AllInOne`.`screenSize` = 27;
+brand: ASUS | model: MX279H, 27", IPS, FHD | screenSize: 27
+brand: ASUS | model:  27.0", VE278H | screenSize: 27
+brand: ASUS | model: 27", VG278HE | screenSize: 27
+brand: ASUS | model: 27", VX279H | screenSize: 27
+brand: ASUS | model: PB278QR, 27.0" | screenSize: 27
+brand: ASUS | model: MG279Q,  27" | screenSize: 27
+brand: ASUS | model: MX27AQ, 27" | screenSize: 27
+brand: LG | model: 27MP77HM-P, 27" | screenSize: 27
+brand: ASUS | model: VP278H 27" | screenSize: 27
+brand: LG | model: 27UD68-W, 27" | screenSize: 27
+brand: LG | model: 27MP38VQ-B Full HD IPS LED Monitor, 27" | screenSize: 27
+brand: LG | model: 27UD68P-B UHD IPS LED Monitor, 27" | screenSize: 27
+brand: LG | model: Full HD IPS LED Monitor 27MP48HQ-P, 27" | screenSize: 27
+brand: LG | model: 4K UHD IPS LED Monitor 27UD88-W, 27" | screenSize: 27
+brand: ACER | model: R271BMID IPS FHD, 27", UM.HR1EE.001 | screenSize: 27
+brand: ASUS | model: MG278Q, 27" | screenSize: 27
+brand: ASUS | model: VX279H-W, 27" | screenSize: 27
+brand: LG | model: 27MP68VQ-P, 27", 27MP68VQ-P.AEU | screenSize: 27
+brand: ACER | model: 27 XZ271BMIJPPHZX CURVED, 27", LCD, UM.HX1EE.019 | screenSize: 27
+brand: LG | model: 27UD58-B, 27", 27UD58-B.AEU | screenSize: 27
+brand: LG | model: 27MP58VQ-P, 27", 27MP58VQ-P.AEU | screenSize: 27
+brand: ACER | model: XG270HUAOMIDPX / WQHD, 27", UM.HG0EE.A01 | screenSize: 27
+brand: ACER | model: XF270HBMJDPRZ, 27", UM.HX0EE.002 | screenSize: 27
+brand: LENOVO | model: Y27G Curved Gaming Monitor, 27", 65BEGAC1IS | screenSize: 27
+brand: ASUS | model: MX27UC, 27", 90LM02B3-B01670 | screenSize: 27
+brand: ACER | model: ED273WMIDX,  27", UM.HE3EE.005 | screenSize: 27
+brand: ACER | model: Z271TBMIPHZX CURVED, 27" | screenSize: 27
+brand: ACER | model: CB271HUBMIDPRX 27" | screenSize: 27
+brand: ACER | model: XB272BMIPRZX 27" | screenSize: 27
+brand: ACER | model: XF270HABMIDPRZ 27" | screenSize: 27
+brand: ACER | model: SA270BID 27" | screenSize: 27
+brand: ACER | model: CB271HKABMIDPRX, 27" | screenSize: 27
+brand: LG | model: 27MP89HM-S, 27" | screenSize: 27
+brand: LG | model: 27UD69-W, 27" | screenSize: 27
+brand: ASUS | model: VS278H 27" | screenSize: 27
+brand: HP | model: 27er 68.58 cm (27") Monitor, T3M88AA | screenSize: 27
+brand: ASUS | model: VZ279HE IPS SLIM 7MM, 27" | screenSize: 27
+brand: ASUS | model: VS278H 1MS/FHD/HDMI, 27" | screenSize: 27
+brand: ACER | model: ED273AWIDPX 27" | screenSize: 27
+brand: ACER | model: R271BMID | screenSize: 27
+brand: DELL | model: SE2717H 5Y | screenSize: 27
+brand: SAMSUNG | model: LS27F350FHUXEN | screenSize: 27
+brand: ACER | model: ED273WMIDX | screenSize: 27
+brand: SAMSUNG | model: LC27F390FHUXEN | screenSize: 27
+brand: HP | model: 27es T3M86AA | screenSize: 27
+brand: PHILIPS | model: 273V5LHAB/00 | screenSize: 27
+brand: PHILIPS | model: 277E6LDAD/00 | screenSize: 27
+brand: PHILIPS | model: 278E8QJAB/00 | screenSize: 27
+brand: PHILIPS | model: 276E7QDSW/00 | screenSize: 27
+brand: LG | model: 27MP58VQ-P | screenSize: 27
+brand: ASUS | model: VG278HE | screenSize: 27
+brand: PHILIPS | model: 275C5QHGSW/00 | screenSize: 27
+brand: LENOVO | model: L27q-10 65CEGAC-1EU | screenSize: 27
+brand: ACER | model: XZ271BMIJPPHZX | screenSize: 27
+brand: PHILIPS | model: 273G3DHSB/00 | screenSize: 27
+brand: BENQ | model: ZOWIE XL2720 | screenSize: 27

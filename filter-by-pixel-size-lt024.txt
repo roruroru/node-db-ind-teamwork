@@ -1,0 +1,19 @@
+Executing (default): SELECT `id`, `brand`, `model`, `price`, `screenSize`, `resolution`, `angleOfView`, `pixelSize`, `reactionTime`, `website`, `shop`, `createdAt`, `updatedAt` FROM `AllInOnes` AS `AllInOne` WHERE `AllInOne`.`pixelSize` < 0.24;
+brand: ASUS | model: PB278QR, 27.0" | pixelSize: 0.233
+brand: ASUS | model: MG279Q,  27" | pixelSize: 0.233
+brand: ASUS | model: MX27AQ, 27" | pixelSize: 0.233
+brand: LG | model: 31MU97Z-B, 31" | pixelSize: 0.1701
+brand: LG | model: 27UD68-W, 27" | pixelSize: 0.1554
+brand: LG | model: 4K UHD IPS LED Monitor 27UD88-W, 27" | pixelSize: 0.1554
+brand: ASUS | model: MG278Q, 27" | pixelSize: 0.233
+brand: LG | model: 27UD58-B, 27", 27UD58-B.AEU | pixelSize: 0.1554
+brand: LG | model: 24UD58-B, 23.8" | pixelSize: 0.1369
+brand: ASUS | model: MX27UC, 27", 90LM02B3-B01670 | pixelSize: 0.155
+brand: LG | model: 38UC99-W WQHD CURVED, 37.5", 38 | pixelSize: 0.229
+brand: ASUS | model: VP28UQG 4K, 28" | pixelSize: 0.16
+brand: ACER | model: KA210HQbd | pixelSize: 0.239
+brand: LENOVO | model: L24q-10 65CFGAC-3EU | pixelSize: 0.206
+brand: DELL | model: P2416D | pixelSize: 0.205
+brand: LENOVO | model: L27q-10 65CEGAC-1EU | pixelSize: 0.233
+brand: SAMSUNG | model: LU28E590DS/EN | pixelSize: 0.16
+brand: DELL | model: S2817Q | pixelSize: 0.16

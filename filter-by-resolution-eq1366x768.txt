@@ -1,0 +1,12 @@
+Executing (default): SELECT `id`, `brand`, `model`, `price`, `screenSize`, `resolution`, `angleOfView`, `pixelSize`, `reactionTime`, `website`, `shop`, `createdAt`, `updatedAt` FROM `AllInOnes` AS `AllInOne` WHERE `AllInOne`.`resolution` = '1366x768';
+brand: ACER | model: 18.5" V196HQLAB, UM.XV6EE.A03 | resolution: 1366x768
+brand: LG | model: 24M38D-B, 23.5" | resolution: 1366x768
+brand: LG | model: 19M38A-B, 18.5" | resolution: 1366x768
+brand: TV | model: LG 28MT48DF-PZ, 27.5" | resolution: 1366x768
+brand: LG | model: 24MT49DF-PZ, 24" | resolution: 1366x768
+brand: LG | model: 28MT49VW-WZ, 28 | resolution: 1366x768
+brand: ACER | model: EB192Qb | resolution: 1366x768
+brand: ACER | model: K202HQLAb | resolution: 1366x768
+brand: PHILIPS | model: 193V5LSB2/10 | resolution: 1366x768
+brand: BENQ | model: GL955A | resolution: 1366x768
+brand: ASUS | model: VS197DE | resolution: 1366x768

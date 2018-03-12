@@ -6,13 +6,14 @@ const $init = require('jquery');
 
 // const _ = require('lodash');
 
-const urlTest = 'http://www.technopolis.bg/bg/Monitors/Monitor-DELL-P2416D/p/512852';
+// const urlTest = 'http://www.technopolis.bg/bg/Monitors/Monitor-DELL-P2416D/p/512852';
 
 const extractProductDetailsTech = async (url) => {
     try {
         const dom = await JSDOM.fromURL(url);
         const $ = $init(dom.window);
 
+        const shop = 'technopolis.bg';
         const price = +$('.price>.priceValue').text();
         const brand =
             $('.table-characteristics tbody tr:nth-child(1) td:nth-child(2)')
@@ -42,25 +43,10 @@ const extractProductDetailsTech = async (url) => {
             .html()
             .split(' ')
             .map(Number)[0];
-        // const interfacePorts =
-        //     $('.table-characteristics tbody tr:nth-child(12) td:nth-child(2)')
-        //     .html();
-        // const weight =
-        //     $('.table-characteristics tbody tr:nth-child(16) td:nth-child(2)')
-        //     .html()
-        //     .split(' ')
-        //     .map(Number)[0];
-        // const size =
-        //     $('.table-characteristics tbody tr:nth-child(17) td:nth-child(2)')
-        //     .html()
-        //     .split(' ')[0];
-        // const warranty =
-        //     $('.table-characteristics tbody tr:nth-child(19) td:nth-child(2)')
-        //     .html()
-        //     .split(' ')
-        //     .map(Number)[0];
 
         return {
+            shop,
+            url,
             price,
             brand,
             model,
@@ -69,10 +55,6 @@ const extractProductDetailsTech = async (url) => {
             pixelSize,
             angleOfView,
             reactionTime,
-            // interfacePorts,
-            // weight,
-            // size,
-            // warranty,
         };
     } catch (error) {
         console.log(error);

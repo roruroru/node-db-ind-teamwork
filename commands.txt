@@ -1,0 +1,13 @@
+node_modules\.bin\sequelize init
+
+node_modules\.bin\sequelize model:generate --name Superhero --attributes name:string
+
+node node_modules\sequelize-auto-migrations\bin\makemigration.js
+
+read name && node node_modules\sequelize-auto-migrations\bin\makemigration.js --name $name
+
+node_modules\.bin\sequelize db:migrate
+
+npm run migrate
+
+npm run add-migration
